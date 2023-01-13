@@ -1,0 +1,113 @@
+.container {
+  background-color: white;
+  display: flex;
+  width: 90vw;
+  height: 80vh;
+  border-bottom-right-radius: 30px;
+}
+
+.left {
+  flex: 0.4;
+  display: flex;
+}
+
+.form_container {
+  margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .form_container {
+    background-color: yellow;
+    margin: 25px;
+  }
+}
+
+.form_header_image img {
+  width: 200px;
+}
+
+.form_header_text {
+  padding-bottom: 20px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form form > input {
+  font-size: 16px;
+  color: black;
+}
+
+.input {
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgba(126, 123, 122, 0.15);
+  outline: none;
+  background: transparent;
+}
+
+::placeholder {
+  font-size: 15px;
+  color: rgb(155, 150, 150);
+  font-family: Helvetica;
+}
+
+.right {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fe9832;
+  height: 100%;
+  margin: 20px;
+  padding: 40px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  position: relative;
+}
+
+.logo img {
+  width: 250px;
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+}
+
+.mobile_banking_img {
+  width: 80%;
+}
+
+.submitButton {
+  width: 40%;
+  margin-top: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  background-color: #1c1b7d;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+}
+
+.disabled {
+  background-color: rgb(155, 150, 150);
+}
+
+.field_invalid {
+  font-size: 12px;
+  color: red;
+  font-weight: 700;
+}

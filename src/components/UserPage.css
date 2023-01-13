@@ -1,0 +1,24 @@
+.userContainer {
+  display: flex;
+  width: 90vw;
+  height: 80vh;
+  border-top-left-radius: 30px;
+  padding: 30px;
+  background-color: #fe9832;
+}
+
+.userContent {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  position: relative;
+}
+
+.success_image {
+  width: 500px;
+}

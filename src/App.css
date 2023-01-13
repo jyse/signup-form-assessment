@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 54px;
+  color: white;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1c1b7d;
+}
+
+h3 {
+  font-size: 18px;
+  color: #fe9832;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c1b7d;
+}
